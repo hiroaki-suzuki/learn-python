@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+name = "learn-python"
+version = "0.1.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mypy = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
