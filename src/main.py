@@ -9,11 +9,11 @@ def fib(n: int) -> Generator[int, None, None]:
     a, b = 0, 1
     while a < n:
         yield a
-        a, b = b, a+b
+        a, b = b, a + b
 
 
 def greeting(name: str) -> str:
-    return 'Hello ' + name
+    return "Hello " + name
 
 
 if __name__ == "__main__":
