@@ -7,3 +7,4 @@ exclude =
     .mypy_cache,
     .venv,
     .vscode
+ignore = D400
